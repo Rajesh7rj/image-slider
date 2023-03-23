@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="heading">
+      <h1>Image Slider</h1>
+    </header>
+    <div class="container">
+      <div class="slider" data-num="1">
+        <img src="./images/image1.jpg" alt="randomImage" class="i1" />
+      </div>
+      <div class="slider" data-num="2">
+        <img src="./images/image2.jpg" alt="randomImage" class="i2" />
+      </div>
+      <div class="slider">
+        <img src="./images/image3.jpg" alt="randomImage" class="i3" />
+      </div>
+      <div class="slider">
+        <img src="./images/image4.jpg" alt="randomImage" class="i4" />
+      </div>
+      <div class="slider">
+        <img src="./images/image5.jpg" alt="randomImage" class="i5" />
+      </div>
+      <div class="slider">
+        <img src="./images/image6.jpg" alt="randomImage" class="i6" />
+      </div>
+    </div>
+
+    <div class="buttons">
+      <button class="prev" id="prev" onclick="prevImg()">Prev</button>
+      <p class="count" id="count">1</p>
+      <button class="next" id="next" onclick="nextImg()">Next</button>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
